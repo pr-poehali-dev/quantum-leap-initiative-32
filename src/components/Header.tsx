@@ -19,22 +19,10 @@ export function Header() {
               Функции
             </a>
             <a
-              href="#philosophy"
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
-            >
-              О нас
-            </a>
-            <a
               href="#process"
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
             >
               Как работает
-            </a>
-            <a
-              href="#contact"
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
-            >
-              Поддержка
             </a>
           </div>
 
@@ -67,25 +55,11 @@ export function Header() {
               Функции
             </a>
             <a
-              href="#philosophy"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
-            >
-              О нас
-            </a>
-            <a
               href="#process"
               onClick={() => setIsMenuOpen(false)}
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
             >
               Как работает
-            </a>
-            <a
-              href="#contact"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Поддержка
             </a>
           </div>
         </div>
