@@ -8,7 +8,7 @@ export function Header() {
       <nav className="mx-auto max-w-7xl px-6 lg:px-12">
         <div className="flex h-20 items-center justify-between">
           <a href="/" className="font-serif text-2xl tracking-wide text-foreground">
-            МедиПомощь
+            MedLink
           </a>
 
           <div className="hidden md:flex items-center gap-12">
